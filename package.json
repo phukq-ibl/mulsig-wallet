@@ -1,0 +1,33 @@
+{
+  "name": "admin-wallet",
+  "version": "1.0.0",
+  "description": "Admin wallet demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "browserify altawallet-core/index.js -o alta-wallet.js --s AltaWallet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "bignumber.js": "^3.0.0",
+    
+    "socket.io": "^1.7.1",
+    "winston": "^2.3.0",
+    "express":"*",
+    "bitcoinjs-lib": "^2.2.0 ",
+    "bitcore-lib": "^0.13.10",
+    "bitcore-mnemonic": "^1.0.1",
+    "crypto-js": "^3.1.6",
+    "elliptic": "^6.2.3",    
+    "scrypt-async": "^1.2.0",
+    "secp256k1": "^3.0.1",
+    "tweetnacl": "^0.14.3",
+    "tweetnacl-util": "^0.13.3",
+
+    "ethereumjs-tx": "*",
+    "ethereumjs-util": "*",
+    "ethereumjs-abi": "*"
+  }
+}

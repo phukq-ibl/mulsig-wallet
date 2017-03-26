@@ -1,0 +1,27 @@
+{
+  "name": "admin-wallet",
+  "description": "Admin wallet demo",
+  "main": "index.js",
+  "authors": [
+    "phukq <phukq@cardano-labo.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "jQuery": "*",
+    "web3": "*",
+    "socket.io-client":"*"
+  }
+}
